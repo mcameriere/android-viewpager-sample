@@ -12,3 +12,9 @@ Create new Fragment (Blank) ThirdFragment
 Create new Fragment (Blank) FourthFragment
 
 Subclass FragmentPagerAdapter in MainActivity.java
+
+Set adapter of the ViewPager as follows:
+
+    ViewPager pager = findViewById(R.id.pager);
+    SectionsPagerAdapter adapter = new SectionsPagerAdapter(getSupportFragmentManager());
+    pager.setAdapter(adapter);
