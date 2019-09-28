@@ -10,3 +10,5 @@ Create new Fragment (Blank) SecondFragment
 Create new Fragment (Blank) ThirdFragment
 
 Create new Fragment (Blank) FourthFragment
+
+Subclass FragmentPagerAdapter in MainActivity.java
